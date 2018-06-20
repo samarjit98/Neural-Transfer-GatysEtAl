@@ -14,4 +14,4 @@ class ImageLoader:
 		return img.cuda()
 
 	def loadimages(self, content, style):
-		return self.imageloader(content), self.imageloader(style
+		return self.imageloader(content), self.imageloader(style)
